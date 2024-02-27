@@ -1,0 +1,308 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: radial-gradient(#ffffff, #c4c4c4);
+}
+
+nav {
+    background-color: #C24600;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 2;
+
+}
+
+header {
+    background-color: #E96714;
+    width: 100%;
+    height: 350px;
+
+}
+
+p {
+    font-family: arial;
+    color: #ffffff;
+
+}
+
+.logo {
+    width: 680px;
+    padding: 60px 32%;
+    position: relative;
+    animation: logo 1s 1;
+
+}
+
+.homem-pensante {
+    margin-left: 200px;
+    margin-top: 200px;
+    position: absolute;
+    width: 350px;
+    animation: homi 1s 1;
+
+}
+
+.oq-ods {
+    color: #E96714;
+    margin-top: 200px;
+    margin-left: 920px;
+    position: absolute;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #C24600;
+    font-size: 25px;
+}
+
+.text-oq-ods {
+    text-align: justify;
+    position: absolute;
+    padding: 350px 200px 0px 760px;
+
+}
+
+.quais-ods {
+    font-size: 67px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #E96714;
+    margin-left: 97px;
+    margin-top: 850px;
+    position: absolute;
+    border: #E96714;
+
+
+}
+
+.button {
+    margin-top: 1050px;
+    margin-left: 250px;
+    background-color: #ff5e00;
+    border: 0px;
+    width: 300px;
+    height: 250px;
+    border-radius: 5%;
+
+
+}
+
+button.button:hover {
+    background-color: #ff9c63;
+}
+
+button.button:active {
+    background-color: #ff5d3d;
+}
+
+.button-p {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+@keyframes logo {
+    0% {
+        margin-top: -72px;
+        opacity: 1%
+    }
+}
+
+.ods-br {
+    color: #ff6600;
+    margin-top: 300px;
+    margin-left: 60px;
+    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+
+.noticia {
+    width: 360px;
+    border-radius: 5%;
+    margin-left: 800px;
+    margin-top: 380px;
+
+
+}
+
+
+.noticia2 {
+    width: 530px;
+    height: 530px;
+    border-radius: 2%;
+    margin-left: 15px;
+    margin-top: 380px;
+    position: absolute;
+
+
+}
+
+.noticia3 {
+    width: 360px;
+    border-radius: 5%;
+    margin-left: 800px;
+    margin-top: 20px;
+
+
+}
+
+.indicadores {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff6600;
+    margin-top: 225px;
+    margin-left: 45px;
+}
+
+.Emissao {
+    margin-left: 45px;
+}
+
+.grafico {
+    width: 1000px;
+    margin-left: 430px;
+    border-radius: 2%;
+}
+
+
+.button-nav {
+    margin-top: 11px;
+    margin-left: 430px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    position: absolute;
+}
+
+.button-nav2 {
+    margin-top: 11px;
+    margin-left: 700px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    position: absolute;
+}
+
+.button-nav3 {
+    margin-top: 11px;
+    margin-left: 1000px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    position: absolute;
+}
+
+.button-nav4 {
+    margin-top: 11px;
+    margin-left: 1350px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    position: absolute;
+}
+#mundo {
+    height: 20px;
+    width: 100%;
+    margin-top: 660px;
+    position: absolute;
+}
+#brasil{
+    height: 20px;
+    width: 100%;
+    margin-top: 100px;
+    position: absolute;
+}
+#grafico{
+    height: 20px;
+    width: 100%;
+    margin-top: 100px;
+    position: absolute;
+
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    margin-top: 400px;
+    background-color: #C24600;
+}
+.text-footer{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+@media only screen and (max-width: 1600px) {
+    .oq-ods {
+        margin-top: 170px;
+        margin-left: 760px;        
+    }
+    .text-oq-ods {
+        padding: 290px 100px 0px 650px;
+    
+    }
+    .quais-ods {
+        font-size: 60px;
+        margin-left: 70px;
+    
+    
+    }
+    .logo {
+        padding: 60px 28%;
+    
+    }.button {
+        margin-left: 170px;    
+    }
+    .ods-br {
+        margin-top: 310px;
+        margin-left: 60px;
+        font-size: 190px;
+    }
+    .noticia {
+        margin-left: 660px;
+    
+    
+    }
+     
+    .noticia2 {
+
+        margin-left: 15px;
+    
+    
+    }
+    
+    .noticia3 { 
+        margin-left: 660px;
+    
+    
+    }
+    .grafico {
+        margin-left: 330px;
+    }
+    .button-nav {
+        margin-left: 300px;
+    }
+    
+    .button-nav2 {
+        margin-left: 550px;
+    }
+    
+    .button-nav3 {
+        margin-left: 800px;
+    }
+    
+    .button-nav4 {
+        margin-left: 1150px;
+    }
+    
+    
+
+    
+  }
